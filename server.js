@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const port = process.env.PORT || 3000
 
-var serviceAccount = require("./pushnotificationbtwdevices-firebase-adminsdk-ei1wh-fcc260a69a.json");
+var serviceAccount = require("./rn--instagram-clone-firebase-adminsdk-s3ocx-cc58536693.json");
 app.use(express.json())
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
